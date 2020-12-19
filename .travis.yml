@@ -15,10 +15,8 @@ rvm:
 matrix:
   allow_failures:
     - rvm: jruby-head
-    - rvm: truffleruby
   exclude:
     - arch: ppc64le
       rvm: truffleruby
     - arch: ppc64le
       rvm: truffleruby-head
-      
